@@ -1,0 +1,145 @@
+:root{
+    --white: #eaedf4;
+    --background: #151f35;
+    --lightbackground: #0d1629;
+    --lighttext: #b7c0d3;
+    --blue: #172576;
+    --pink: #FF93C9;
+    --darkpink: #ad5a84;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Verdana", sans-serif;
+    color: var(--white);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-nav {
+    background-color: var(--lightbackground);
+}
+
+.bg-main {
+    background-color: var(--background);
+}
+
+.navbar a {
+    color: var(--white);
+}
+
+.brand a {
+    color: var(--pink);
+}
+
+.brand a:hover {
+    color: var(--pink);
+}
+
+.navbar a:hover {
+    color: var(--pink);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.project {
+    display: flex;
+}
+
+.project-left {
+    margin-top: 30px;
+}
+
+.project-left h1 {
+    font-size: 1.5em;
+    color: var(--pink);
+}
+
+.project-left h2 {
+    font-size: 1.2em;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.mySlides {
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    text-shadow: -1px 1px 3px black;
+    display: inline;
+    font-size: 2em;
+    border: none;
+    z-index: 10;
+    pointer-events: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -45px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.project-right h3 {
+    font-size: 1.2em;
+    color: var(--pink);
+}
+
+.project-outcomes, .project-skills {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .project {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) {
+    .project {
+        flex-direction: row;
+    }
+
+    .project-right {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+
+}
