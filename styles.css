@@ -62,7 +62,7 @@ a {
     font-family: Tahoma, "Trebuchet MS", sans-serif;
     font-size: 4em;
     text-shadow: -1px 1px 5px black;
-    top: 50%;
+    top: 60%;
     font-weight: bold;
 }
 
@@ -71,7 +71,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -35%;
+    top: -25%;
     z-index: 2;
     font-weight:100;
 }
