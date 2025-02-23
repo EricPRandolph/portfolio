@@ -608,12 +608,12 @@ footer h3 {
 
 @media only screen and (min-width: 1920px){
 
-    /* .carousel-caption {
-        font-size: 3.2em;
-    } */
+    .carousel-caption {
+        font-size: 5em;
+    }
     
     .typewriter {
-        font-size: 2.2em;
+        font-size: 2.8em;
     }
 
     .about-left {
