@@ -138,6 +138,14 @@ footer {
     padding-left: 0;
 }
 
+.mail:hover {
+    content:url("assets/imgs/logos/gmail-pink.png");
+}
+
+.linkedin:hover {
+    content:url("assets/imgs/logos/linkedin-pink.png");
+}
+
 footer h2 {
     font-size: 1.4em;
     padding-bottom: 15px;
